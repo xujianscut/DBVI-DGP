@@ -161,6 +161,8 @@ The DDVI predecessor:
   title={Sparse Inducing Points in Deep Gaussian Processes: Enhancing Modeling with Denoising Diffusion Variational Inference},
   author={Xu, Jian and Zeng, Delu and Paisley, John},
   booktitle={International Conference on Machine Learning},
-  year={2024}
+  pages={55490--55500},
+  year={2024},
+  organization={PMLR}
 }
 ```
