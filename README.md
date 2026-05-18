@@ -151,13 +151,18 @@ Run `python dbvi.py --help` for the full list.
 The DDVI predecessor:
 
 ```bibtex
-@inproceedings{xu2024sparse,
-  title     = {Sparse Inducing Points in Deep Gaussian Processes: Enhancing Modeling with Denoising Diffusion Variational Inference},
+@InProceedings{pmlr-v235-xu24af,
+  title     = {Sparse Inducing Points in Deep {G}aussian Processes: Enhancing Modeling with Denoising Diffusion Variational Inference},
   author    = {Xu, Jian and Zeng, Delu and Paisley, John},
   booktitle = {Proceedings of the 41st International Conference on Machine Learning},
   pages     = {55490--55500},
   year      = {2024},
-  publisher = {PMLR}
+  editor    = {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume    = {235},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {21--27 Jul},
+  publisher = {PMLR},
+  url       = {https://proceedings.mlr.press/v235/xu24af.html}
 }
 ```
 
