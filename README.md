@@ -39,14 +39,6 @@ $\kappa_t$ — two features unavailable to vanilla DDVI.
 
 ## Implementation notes
 
-The original prototype distributed alongside the paper used `gpytorch` and
-grafted the bridge SDE onto the standard `VariationalStrategy`. During
-careful debugging we found that `gpytorch.variational._VariationalDistribution.initialize_variational_distribution`
-overwrites the bridge-derived initial mean at first forward, which left the
-score branch as an **isolated side-network** with no gradient path to the
-ELBO. The DBVI claim is sound, but that early code did not faithfully
-implement it.
-
 **This repository contains a clean from-scratch implementation in which the
 score network genuinely participates in the ELBO**, with the reverse-time
 bridge SDE used as the sampling mechanism throughout training and
